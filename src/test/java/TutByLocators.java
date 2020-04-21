@@ -42,7 +42,7 @@ public class TutByLocators {
         driver.findElement(By.cssSelector("#top100Counter"));
         //16 | Выбирает все элементы
         driver.findElement(By.cssSelector("*"));
-        //17|.class1.class2у
+        //17|.class1.class2
         driver.findElement(By.cssSelector(" div.vacancy-serp-item__info div.g-user-content > div:nth-child(1)"));
         //18|[attribute]
         driver.findElement(By.cssSelector("[style]"));
